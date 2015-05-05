@@ -1,0 +1,27 @@
+{
+  "name": "douban-robot",
+  "description": "豆瓣小组顶帖机器人",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "DEBUG=* pm2 start app.js --node-args='--harmony' --name 'douban-robot'"  
+  },
+  "keywords": [
+    "douban",
+    "group",
+    "douban-group",
+    "robot"
+  ],
+  "dependencies": {
+    "co": "3.1.0",
+    "co-request": "0.2.0",
+    "cheerio": "0.17.0",
+    "debug": "2.0.0",
+    "cron": "1.0.5"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/douban-robot.git"
+  }
+}
