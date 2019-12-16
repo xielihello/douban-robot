@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "DEBUG=* pm2 start app.js --node-args='--harmony' --name 'douban-robot'"  
+    "start": "DEBUG=* pm2 start app.js --node-args='--harmony' --name 'douban-robot'"
   },
   "keywords": [
     "douban",
@@ -13,11 +13,12 @@
     "robot"
   ],
   "dependencies": {
+    "cheerio": "^0.22.0",
     "co": "3.1.0",
     "co-request": "0.2.0",
-    "cheerio": "0.17.0",
-    "debug": "2.0.0",
-    "cron": "1.0.5"
+    "cron": "1.0.5",
+    "debug": "^4.1.1",
+    "pm2": "^4.2.1"
   },
   "license": "MIT",
   "repository": {
